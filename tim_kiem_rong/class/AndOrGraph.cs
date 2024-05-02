@@ -180,7 +180,7 @@ namespace tim_kiem_rong
         }
 
         // thủ tục gán nhãn
-        public static void LabelingProcedure(Node node, Queue<Node> openSet, Queue<Node> closedSet)
+        public static void LabelingProcedure(Node node, ref Queue<Node> openSet, Queue<Node> closedSet)
         {
             // nếu node có nhãn không xác định thì thực hiện câu lệnh
             if (node.LabelNode == Label.kxd)
@@ -205,7 +205,7 @@ namespace tim_kiem_rong
                             // duyệt các con của node
                             foreach (var nodeChild in node.Childrens)
                             {
-                                LabelingProcedure(nodeChild, openSet, closedSet);
+                                LabelingProcedure(nodeChild,ref openSet, closedSet);
 
                                 /* nếu 1 trong các con của node không phải nhãn giải được
                                    thì đặt biến canSolve = false */
@@ -228,7 +228,7 @@ namespace tim_kiem_rong
 
                             foreach (var nodeChild in node.Childrens)
                             {
-                                LabelingProcedure(nodeChild, openSet, closedSet);
+                                LabelingProcedure(nodeChild, ref openSet, closedSet);
 
                                 /* nếu 1 trong các con của node không phải nhãn không giải được
                                    thì đặt biến cantSolve = false */
@@ -248,14 +248,11 @@ namespace tim_kiem_rong
                         else node.LabelNode = Label.kxd;
 
                         /* nếu node được gán nhãn giải được hoặc nhãn không giải được
-                           thì loại bỏ con của node trong tập MO */
+                           thì loại bỏ các node liên quan đến node đó trong tập MO */
                         if (node.LabelNode != Label.kxd)
                         {
-                            foreach (Node nodeChild in openSet)
-                            {
-                                openSet = new Queue<Node>(openSet.Where(node => node != nodeChild));
-                            }
-                        }    
+                            RemoveNodeAndNodeChild(node, ref openSet);
+                        }
                     }
                 }
             }
@@ -298,7 +295,7 @@ namespace tim_kiem_rong
                         if (nodeChild.IsEndNode) nodeChild.LabelNode = Label.gd;
                     }
 
-                    LabelingProcedure(root, openSet, closedSet);
+                    LabelingProcedure(root, ref openSet, closedSet);
                     Console.WriteLine();
 
                     // nếu node gốc giải được thì thông báo kết thúc chương trình
@@ -356,5 +353,14 @@ namespace tim_kiem_rong
             Console.WriteLine();
         }
 
+        public static void RemoveNodeAndNodeChild(Node node, ref Queue<Node> openSet)
+        {
+            if (node.Childrens.Count > 0)
+                foreach (Node nodeChild in node.Childrens)
+                {
+                    RemoveNodeAndNodeChild(nodeChild, ref openSet);
+                    openSet = new Queue<Node>(openSet.Where(node => node != nodeChild));
+                }
+        }
     }
 }

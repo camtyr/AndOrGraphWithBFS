@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\66PM3\\ttnt\\code\\tim_kiem_rong\\tim_kiem_rong\\tim_kiem_rong.csproj": {}
+    "C:\\66PM3\\ttnt\\code\\AndOrGraphWithBFS\\tim_kiem_rong\\tim_kiem_rong.csproj": {}
   },
   "projects": {
-    "C:\\66PM3\\ttnt\\code\\tim_kiem_rong\\tim_kiem_rong\\tim_kiem_rong.csproj": {
+    "C:\\66PM3\\ttnt\\code\\AndOrGraphWithBFS\\tim_kiem_rong\\tim_kiem_rong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\66PM3\\ttnt\\code\\tim_kiem_rong\\tim_kiem_rong\\tim_kiem_rong.csproj",
+        "projectUniqueName": "C:\\66PM3\\ttnt\\code\\AndOrGraphWithBFS\\tim_kiem_rong\\tim_kiem_rong.csproj",
         "projectName": "tim_kiem_rong",
-        "projectPath": "C:\\66PM3\\ttnt\\code\\tim_kiem_rong\\tim_kiem_rong\\tim_kiem_rong.csproj",
+        "projectPath": "C:\\66PM3\\ttnt\\code\\AndOrGraphWithBFS\\tim_kiem_rong\\tim_kiem_rong.csproj",
         "packagesPath": "C:\\Users\\bduc9\\.nuget\\packages\\",
-        "outputPath": "C:\\66PM3\\ttnt\\code\\tim_kiem_rong\\tim_kiem_rong\\obj\\",
+        "outputPath": "C:\\66PM3\\ttnt\\code\\AndOrGraphWithBFS\\tim_kiem_rong\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bduc9\\AppData\\Roaming\\NuGet\\NuGet.Config",
