@@ -1,0 +1,14 @@
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\bin\Debug\net8.0\tim_kiem_rong.exe
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\bin\Debug\net8.0\tim_kiem_rong.deps.json
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\bin\Debug\net8.0\tim_kiem_rong.runtimeconfig.json
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\bin\Debug\net8.0\tim_kiem_rong.dll
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\bin\Debug\net8.0\tim_kiem_rong.pdb
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.GeneratedMSBuildEditorConfig.editorconfig
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.AssemblyInfoInputs.cache
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.AssemblyInfo.cs
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.csproj.CoreCompileInputs.cache
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.dll
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\refint\tim_kiem_rong.dll
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.pdb
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\tim_kiem_rong.genruntimeconfig.cache
+C:\66PM3\ttnt\code\tim_kiem_rong\tim_kiem_rong\obj\Debug\net8.0\ref\tim_kiem_rong.dll
